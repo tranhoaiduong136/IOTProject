@@ -7,14 +7,10 @@ In this multidisciplinary project, we will build up a simple model of **Greenhou
 
 ### Manage gadgets:
 
-## III.Machine Learning part
-### Design model: 
-
-### Building model: 
 
 ### Applying the model by **Python**:
 
-## IV.App for users part:
+## III.App for users part:
 ### Design part:
 
 ### Application part:
