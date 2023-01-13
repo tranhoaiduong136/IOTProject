@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IrrigationActivity">
+
+    <TextView
+        android:id="@+id/textIrrigation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="Irrigation"
+        android:textAlignment="center"
+        android:textColor="#2196F3"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.051" />
+
+    <ImageButton
+        android:id="@+id/btnbackIrr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:background="@color/white"
+        android:contentDescription="@android:string/untitled"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_keyboard_backspace_24" />
+
+    <TextView
+        android:id="@+id/textTempAdjust"
+        android:layout_width="258dp"
+        android:layout_height="43dp"
+        android:text="Moisture adjust"
+        android:textColor="#2196F3"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.195"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.158" />
+
+    <TextView
+        android:id="@+id/textMoistLimit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="226dp"
+        android:text="Moisture limits "
+        android:textColor="#2196F3"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.134"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider5" />
+
+    <SeekBar
+        android:id="@+id/seekBarIrr"
+        style="@android:style/Widget.DeviceDefault.SeekBar"
+        android:layout_width="262dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="8dp"
+        android:backgroundTint="#FFFBFB"
+        android:foregroundTint="#FFFFFF"
+        android:max="100"
+        android:progress="35"
+        android:progressTint="#2196F3"
+        android:thumb="?android:attr/textSelectHandle"
+        android:thumbTint="#2196F3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textTempAdjust" />
+
+    <TextView
+        android:id="@+id/textLower"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="281dp"
+        android:text="Lower bound"
+        android:textColor="#2196F3"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.685"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textMoistLimit" />
+
+    <TextView
+        android:id="@+id/textUpper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="283dp"
+        android:text="Upper bound"
+        android:textColor="#2196F3"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.657"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textLower" />
+
+    <View
+        android:id="@+id/divider5"
+        android:layout_width="380dp"
+        android:layout_height="2dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textIrrigation"
+        app:layout_constraintVertical_bias="0.384" />
+
+    <TextView
+        android:id="@+id/textMoisture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="144dp"
+        android:layout_marginBottom="16dp"
+        android:inputType="number|numberDecimal"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        android:text="--"
+        android:textAlignment="center"
+        android:textColor="#2196F3"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/seekBarIrr"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textTempAdjust"
+        app:layout_constraintVertical_bias="0.75" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupIrr"
+        android:layout_width="125dp"
+        android:layout_height="129dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="160dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.248"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textTempAdjust">
+
+        <RadioButton
+            android:id="@+id/radioAutoIrr"
+            android:layout_width="136dp"
+            android:layout_height="70dp"
+            android:buttonTint="#2196F3"
+            android:checked="false"
+            android:text="Automatic"
+            android:textColor="#2196F3"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radioManualIrr"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:buttonTint="#2196F3"
+            android:checked="true"
+            android:text="Manual"
+            android:textColor="#2196F3"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/editIrrMin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:ems="10"
+        android:hint="0"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/editIrrMax"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toEndOf="@+id/textLower"
+        app:layout_constraintTop_toBottomOf="@+id/textMoistLimit"
+        app:layout_constraintVertical_bias="0.611" />
+
+    <EditText
+        android:id="@+id/editIrrMax"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="152dp"
+        android:ems="10"
+        android:hint="100"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.557"
+        app:layout_constraintStart_toEndOf="@+id/textUpper"
+        app:layout_constraintTop_toBottomOf="@+id/textMoistLimit"
+        app:layout_constraintVertical_bias="0.866" />
+
+    <Button
+        android:id="@+id/irrSaveBtn"
+        android:layout_width="212dp"
+        android:layout_height="56dp"
+        android:backgroundTint="#2196F3"
+        android:text="Save"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.896" />
+
+    <TextView
+        android:id="@+id/textML"
+        android:layout_width="114dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="20dp"
+        android:textColor="#2196F3"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/seekBarIrr"
+        app:layout_constraintStart_toEndOf="@+id/textMoisture"
+        app:layout_constraintTop_toBottomOf="@+id/textTempAdjust"
+        app:layout_constraintVertical_bias="0.594" />
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/moistSwitch"
+        style="androidx.appcompat.widget.SwitchCompat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOff="Off"
+        android:textOn="On"
+        android:thumb="@drawable/thumb"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.881"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.321"
+        app:showText="true"
+        app:track="@drawable/track" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

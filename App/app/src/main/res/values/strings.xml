@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MultiProject</string>
+    <string name="weather_prediction">Weather Prediction</string>
+
+    <string-array name="sex_array">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+</resources>

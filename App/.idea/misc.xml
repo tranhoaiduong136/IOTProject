@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/admin/Desktop/Multi project/App/MultiProject/app/src/main/res/drawable/ic_baseline_arrow_forward_ios_24.xml" value="0.204" />
+        <entry key="..\:/Users/admin/Desktop/Multi project/App/MultiProject/app/src/main/res/drawable/thumb.xml" value="0.1" />
+        <entry key="..\:/Users/admin/Desktop/Multi project/App/MultiProject/app/src/main/res/drawable/track.xml" value="0.1" />
+        <entry key="..\:/Users/admin/Desktop/Multi project/App/MultiProject/app/src/main/res/layout/activity_device.xml" value="0.25" />
+        <entry key="..\:/Users/admin/Desktop/Multi project/App/MultiProject/app/src/main/res/layout/activity_dht11.xml" value="0.25" />
+        <entry key="..\:/Users/admin/Desktop/Multi project/App/MultiProject/app/src/main/res/layout/activity_drv.xml" value="0.25" />
+        <entry key="..\:/Users/admin/Desktop/Multi project/App/MultiProject/app/src/main/res/layout/activity_irrigation.xml" value="0.1078125" />
+        <entry key="..\:/Users/admin/Desktop/Multi project/App/MultiProject/app/src/main/res/layout/activity_lcd.xml" value="0.25" />
+        <entry key="..\:/Users/admin/Desktop/Multi project/App/MultiProject/app/src/main/res/layout/activity_led.xml" value="0.25" />
+        <entry key="..\:/Users/admin/Desktop/Multi project/App/MultiProject/app/src/main/res/layout/activity_profile.xml" value="0.25" />
+        <entry key="..\:/Users/admin/Desktop/Multi project/App/MultiProject/app/src/main/res/layout/activity_pump.xml" value="0.25" />
+        <entry key="..\:/Users/admin/Desktop/Multi project/App/MultiProject/app/src/main/res/layout/activity_replay.xml" value="0.25" />
+        <entry key="..\:/Users/admin/Desktop/Multi project/App/MultiProject/app/src/main/res/layout/activity_settings.xml" value="0.25" />
+        <entry key="..\:/Users/admin/Desktop/Multi project/App/MultiProject/app/src/main/res/layout/activity_soil.xml" value="0.25" />
+        <entry key="..\:/Users/admin/Desktop/Multi project/App/MultiProject/app/src/main/res/layout/activity_statistics.xml" value="0.2" />
+        <entry key="..\:/Users/admin/Desktop/Multi project/App/MultiProject/app/src/main/res/layout/activity_temperature.xml" value="0.25" />
+        <entry key="..\:/Users/admin/Desktop/Multi project/App/MultiProject/app/src/main/res/layout/activity_test.xml" value="0.25" />
+        <entry key="..\:/Users/admin/Desktop/Multi project/App/MultiProject/app/src/main/res/layout/activity_weather.xml" value="0.25" />
+        <entry key="..\:/Users/admin/Desktop/Multi project/App/MultiProject/app/src/main/res/layout/thumb.xml" value="0.24635416666666668" />
+        <entry key="..\:/Users/admin/Desktop/Multi project/App/MultiProject/app/src/main/res/layout/track.xml" value="0.24635416666666668" />
+        <entry key="app/src/main/res/drawable/ic_baseline_arrow_forward_ios_24.xml" value="0.1995" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.2132725430597771" />
+        <entry key="app/src/main/res/layout/activity_soil.xml" value="0.27898550724637683" />
+        <entry key="app/src/main/res/layout/activity_temperature.xml" value="0.27898550724637683" />
+        <entry key="app/src/main/res/layout/activity_test.xml" value="0.27898550724637683" />
+        <entry key="app/src/main/res/layout/activity_weather.xml" value="0.4248274872268455" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
