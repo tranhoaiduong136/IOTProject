@@ -7,9 +7,9 @@ In this multidisciplinary project, we will build up a simple model of **Greenhou
 ![microbit-screenshot](https://user-images.githubusercontent.com/60745952/219564540-4c8f9856-3edb-4de9-9e02-aef360d0e00b.png)
 
 ### Manage gadgets:
-####Input devices: 
+#### Input devices: 
 Soil moisture sensor, DHT11,Light Sensor, Mini-pump
-####Output devices:
+#### Output devices:
 DRV power circuit,A 2-color single LED, LCD I2C/OLED,Relay circuit
 
 ### Applying the model by **Python**:
