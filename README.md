@@ -11,7 +11,7 @@ In this multidisciplinary project, we will build up a simple model of **Greenhou
 ### Applying the model by **Python**:
 
 ## III.App for users part:
-### Design part:
+### Design part(MVC):
 
 ### Application part:
 
